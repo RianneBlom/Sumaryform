@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Survey form</title>
+</head>
+
+<body>
+<h1 id="title"> Survey form </h1>
+
+<p id="description"> Kitties are cute</p>
+
+<form id="survey-form">
+  <form action="/action_page.php">
+  <label id="name-label">  
+  <p>Name:</p>
+      <input id="name" type="text" for="name" placeholder="Enter your name" required> <br>
+    
+   <label id="email-label">
+  <p>Email:</p>
+       <input id="email" type="email" for="email" placeholder="Enter your email" required> <br>
+     
+     <label id="number-label">    
+    <p>Age:</p>
+       <input id="number" type="number" for="number" placeholder="Enter your age" min="12" max="50" required> <br>
+       <p>Do you love kitties?</P> 
+       
+<select id="dropdown"> 
+  <option value="default">No I don't like kitties</option>
+    <option value="default">Yes i like kitties</option>
+    <option value="default">Heck yeah I love kitties</option>
+
+     </select> <br><br>
+     
+     <p> What do you like the most about kitties?</P>
+ 
+    <input type="radio" name="kitties" value="1"> Their soft fur</input>
+  <br>
+   <input type="radio" name="kitties" value="2">Their sweet purrs</input>
+    <br>
+   <input type="radio" name="kitties" value="3">Their stinky breath</input><br>
+
+<p>Which pattern of their fur do you like the most?</p>
+
+<input type="checkbox" value="1"> I love black kitties </input><br>
+<input type="checkbox" value="2"> I love turtle kitties </input><br>
+<input type="checkbox" value="3"> I love tiger kitties </input><br>
+
+<textarea id="comment" rows="4" column="40"> 
+  add your comment here </textarea> <br>
+ <input type="submit" id="submit" value="Submit">
+
+  
+    
+</form>
+</body>
+
+<body>
+    
+</body>
+</html>
